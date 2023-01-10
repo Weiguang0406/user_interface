@@ -151,13 +151,11 @@ let koaScore = [88, 91, 110];
 
 let dolSum = dolScore.reduce((a, b) => a + b, 0);
 let dolAverage = dolSum / dolScore.length;
-console.log(dolSum);
 console.log(dolAverage);
 
 let koaSum = koaScore.reduce((a, b) => a + b, 0);
 let koaAverage = koaSum / koaScore.length;
 
-console.log(koaSum);
 console.log(koaAverage);
 
 if (dolAverage > koaAverage) {
