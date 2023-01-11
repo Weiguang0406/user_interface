@@ -150,21 +150,22 @@ console.log(Boolean(0n));
 // if our contry's population is greater than 33 million, log "Portugal's population is above average".Otherqise log"Portugal's population is 22 million below average;
 // after checking the result, change the population temporarily to 13 and then to 130, see the different result and set  the polulation to original;
 
-let contryName;
-let population;
-contryName = prompt("Please enter your contry name:");
-population = prompt("Please enter your contry's population in million:");
+// let contryName;
+// let population;
+// contryName = prompt("Please enter your contry name:");
+// population = prompt("Please enter your contry's population in million:");
 
-// contryName = "China";
-// population = 1400;
+// // contryName = "China";
+// // population = 1400;
 
-if (population > 33) {
-  console.log(`${contryName}'s population is above average.`);
-} else if (population < 33) {
-  let popu_difference = 33 - population;
-  console.log(`${contryName}'s population is ${popu_difference} below average`);
-} else {
-  console.log(`${contryName}'s population is on average.`);
-}
+// if (population > 33) {
+//   console.log(`${contryName}'s population is above average.`);
+// } else if (population < 33) {
+//   let popu_difference = 33 - population;
+//   console.log(`${contryName}'s population is ${popu_difference} below average`);
+// } else {
+//   console.log(`${contryName}'s population is on average.`);
+// }
 
-// 2:
+let isIland = Boolean("China");
+console.log(isIland);

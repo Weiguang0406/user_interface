@@ -161,7 +161,7 @@ console.log(koaAverage);
 if (dolAverage > koaAverage) {
   console.log(`Team Dolphins(${dolAverage}) is the WINNER!`);
 } else if (dolAverage < koaAverage) {
-  console.log(`Team Koala(${koaAverage}) is the WINNER!`);
+  console.log(`Team Koala(${koaAverage}) is the WINNER! `);
 } else {
   console.log(`Team Dolphins and Team Koala are tied!`);
 }
