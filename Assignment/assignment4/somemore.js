@@ -25,12 +25,8 @@ const listOfNeighbours = [
 ];
 
 for (let i = 0; i < listOfNeighbours.length; i++) {
-  console.log(
-    `${listOfNeighbours[i][0]}: ${listOfNeighbours[i].slice(
-      1,
-      listOfNeighbours[i].length
-    )}`
-  );
+  for (let e = 0; e < listOfNeighbours[i].length; e++)
+    console.log(`Neighbor: ${listOfNeighbours[i][e]}`);
 }
 
 // exercise_3: Sum Array Exercise
