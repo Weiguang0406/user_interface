@@ -6,6 +6,8 @@
 // Basically iterate over all the <li> elements and toggle the class of 'highlight' on each one.   Your end result should look like this:
 let elements = document.querySelectorAll("li");
 console.log(elements);
+console.log(elements[1].classList);
+console.log(elements[1].className);
 
 // toggle all elements with a for loop:
 for (let i = 0; i < elements.length; i++) {
