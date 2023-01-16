@@ -28,16 +28,16 @@ body {
   /* justify-content: space-evenly; */
 }
 .gridboard {
-  width: 550px;
+  width: 500px;
   /* background-color: #f5f2f2; */
-  height: 550px;
+  height: 500px;
   /* display: flex; */
   /* flex-direction: row; */
   /* flex-wrap: wrap;  */
   /* position: relative; */
   float: left;
   font-size: 0px;
-  margin: auto;
+  margin: auto 50px auto auto;
 }
 .gridboard > .smallbox {
   background-color: #b10dc9;
@@ -49,6 +49,7 @@ body {
   padding: 0px 0px 0px 0px;
   font-size: 20px;
   font-weight: bold;
+  /* overflow: visible; */
 }
 
 #img_ladder1 {
@@ -90,8 +91,8 @@ body {
 
 #img_flag {
   position: relative;
-  top: -620px;
-  left: -10px;
+  top: -820px;
+  left: 420px;
   width: 70px;
   height: 70px;
 }
@@ -168,4 +169,18 @@ body {
     float: left;
     margin-right: 25px;
   }
+}
+
+/* Weiguang Player1 class */
+#player1 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+#player2 {
+  position: relative;
+
+  width: 40px;
+  height: 40px;
+  left: 2px;
 }
